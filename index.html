@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th><input type="text" id="left"></th>
+            <th><input type="text" id="center"></th>
+            <th><input type="text" id="right"></th>
+        </tr>
+        <tr>
+            <th><input type="button" value="start" id="start-left"></th>
+            <th><input type="button" value="start" id="start-center"></th>
+            <th><input type="button" value="start" id="start-right"></th>
+        </tr>
+        <tr>
+            <th><input type="button" value="stop" id="stop-left" disabled></th>
+
+        </tr>
+        <div class="limit">あと残り10回</div>
+    </table>
+    <input type="button" value="reset" id="reset">
+    <div class="cong"></div>
+    <script src="index.js"></script>
+</body>
+
+</html>
