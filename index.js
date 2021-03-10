@@ -113,14 +113,18 @@ stops.addEventListener('click', () => {
         st = true;
         str = true;
         stc = true;
+        l = 0;
+        r = 1;
+        c = 2;
     } else {
         alert("stopを二回以上押さないでね")
+
     }
 
     if (i < 0) {
         count.textContent = "Game over"
     }
-    if (left.value == center.value == right.value) {
+    if (left.value == center.value && center.value == right.value) {
         alert("congratulations!!")
     }
     return i
